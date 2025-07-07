@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="stylesheet" href="product.css">
+        <script>
+            function added(){
+                alert("Product is added to cart.");
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="#"><img src="https://i.imgur.com/ZACbR9o.png" alt="Logo" width="130" height="auto"></a>
+                </div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Product</a></li>
+                </ul>
+                <div class="username"><font style="color: rgb(46, 134, 193 );">Username: &nbsp</font><span id="user"></span></div>
+            </div>
+        </nav>
+        <script>
+            const username = localStorage.getItem('username');
+            document.getElementById('user').textContent = username ? username : "Guest";
+        </script>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="section-content">
+                <div class="hero-content">
+                    <img src="https://i.imgur.com/3gmpql7.png" alt="Logo" width="300" height="auto">
+                </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="hero-image">
+                    <h3 class="subtitle">1</h3>
+                    <iframe width="420" height="315"src="https://www.youtube.com/embed/zJs_CD4zeYY"></iframe>
+                    <p class="img-description">5$</p>
+                    <button class="start" onclick="added()">Add to cart</button>
+                </div>
+            </section>
+            <section class="product2">
+                <div class="hero-image">
+                    <h3 class="subtitle">2</h3>
+                    <iframe width="420" height="315"src="https://www.youtube.com/embed/hh18zqgvur8"></iframe>
+                    <p class="img-description">5$</p>
+                    <button class="start" onclick="added()">Add to cart</button>
+                </div>
+            </section>
+            <section class="product">
+                <div class="hero-image">
+                    <h3 class="subtitle">3</h3>
+                    <iframe width="420" height="315"src="https://www.youtube.com/embed/0YMOB2gAjRU"></iframe>
+                    <p class="img-description">5$</p>
+                    <button class="start" onclick="added()">Add to cart</button>
+                </div>
+            </section>
+            <footer class="footer">
+            <div class="footer-content">
+                <h3 class="h3-footer">More Coming.</h3>
+                <div class="footer-links">
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                </div>
+            </div>
+            </footer>
+        </main>
+    </body>
+</html>

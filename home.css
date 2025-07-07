@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.imgur.com/CNIpzs7.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: rgb(253, 254, 254);
+    font-family: Tahoma, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid aliceblue;
+    border-bottom: 2px solid black;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 40px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(46, 134, 193);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: rgb(0, 191, 255);
+    color: black;
+    border-radius: 3px;
+}
+.username{
+    color: rgb(236, 64, 122);
+    font-size: 25px;
+    background-color: rgb(255, 255, 0);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+main {
+    background-color: rgb(0, 191, 255, 0.8);
+    text-decoration: none;
+    color: rgb(255, 204, 0);
+    font-family: Tahoma, sans-serif;
+}
+.hero .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+.hero .hero-content {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    max-width: 1200px;
+}
+.hero .hero-content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero .hero-image {
+    margin-top: 50px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 0, 0.7);
+    border-top: 2px solid black;
+}
+.hero .hero-image img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero .hero-content .subtitle {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 0);
+    font-family: "Inter", sans-serif;
+    padding-top: 10px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.hero .hero-content .description {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.hero .hero-image .subtitle {
+    margin-top: -50px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.hero .hero-image .img-description {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(173, 216, 230);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.hero .hero-image .start {
+    margin-top: 25px;
+    margin-bottom: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 182, 193);
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hero .hero-image .start:hover {
+    background-color: rgb(255, 105, 180);
+    color: white;
+    border-radius: 10px;
+}

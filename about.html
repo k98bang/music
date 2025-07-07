@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Us</title>
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="#"><img src="https://i.imgur.com/ZACbR9o.png" alt="Logo" width="130" height="auto"></a>
+                </div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="product.html">Product</a></li>
+                </ul>
+                <div class="username"><font style="color: rgb(46, 134, 193 );">Username: &nbsp</font><span id="user"></span></div>
+            </div>
+        </nav>
+        <script>
+            const username = localStorage.getItem('username');
+            document.getElementById('user').textContent = username ? username : "Guest";
+        </script>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="section-content">
+                <div class="hero-content">
+                    <img src="https://i.imgur.com/kLNkFb3.png" alt="Logo" width="500" height="auto">
+                </div>
+                <div class="hero-image">
+                    <img src="https://i.imgur.com/ghbmOYC.jpeg" alt="Music Image" class="hero-img" width="500" height="auto">
+                    <h3 class="subtitle">Zildjian Chiylle C. Zipagan</h3>
+                    <p class="img-description">Maker/Owner</p>
+                </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about-content">
+                <h1 class="about-title">About Music</h1>
+                <p class="about-description">Music is a platform where beatmakers can showcase their work, connect with artists, and turn their sound into something real. <br>Whether you're selling your own beats or looking for the next instrumental to bring your track to life, Music makes the process simple, clean, and built around the creative community.<br><br>For producers, Music lets you upload your beats, set your own prices, and stay fully in control of your sound, your sales, and your brand. For artists, you can explore a wide range of beats. Find the vibe that fits your voice, license it, and bring your next project to life. And for anyone simply looking to explore, Music is built to support real talent and creativity.<br><br>What sets us apart is simple: no middlemen taking big cuts, a creator-first experience, and a platform built with a true love for music. Whether you’re flipping melodies in your bedroom or searching for the perfect beat to match your lyrics, Music is your place to make it happen.</p>
+                </div>
+            </section>
+            <footer class="footer">
+            <div class="footer-content">
+                <h3 class="h3-footer">Contacts: </h3>
+                <div class="footer-links">
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                </div>
+            </div>
+            </footer>
+        </main>
+    </body>
+</html>

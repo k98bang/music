@@ -1,0 +1,64 @@
+body{
+    min-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-image: url('https://i.imgur.com/CNIpzs7.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.sign-up-button{
+    width: 100%;
+    max-width: 200px;
+    height: 35px;
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+.sign-up-button:hover{
+    background-color: rgb(0, 191, 255);
+    color: black;
+    border-radius: 3px;
+}
+.sign-up-input{
+    width: 100%;
+    min-width: 0;
+    height: 35px;
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    font-weight: bold;
+    cursor: text;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.sign-up label{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+}
+.logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
